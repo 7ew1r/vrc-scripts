@@ -1,11 +1,10 @@
-vrc-scripts
-===
+# vrc-scripts
 
 VRC 用 Powershell スクリプト集
 
 ## Instalation
 
-1. リポジトリを Clone 
+1. リポジトリを Clone
 2. PATH を通す
 
 ## Usage
@@ -30,6 +29,14 @@ Create-New-Avatar.ps1
 
 ```
 Get-Unity-Version.ps1 [project_dir]
+```
+
+### `Get-VRCSDK-Version.ps1`
+
+指定したディレクトリで使用されている VRCSDK のバージョンを取得する
+
+```
+Get-VRCSDK-Version.ps1 [project_dir]
 ```
 
 ### `Open-Unity-Project.ps1`
