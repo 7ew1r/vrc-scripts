@@ -50,15 +50,7 @@ Open-Unity-Project.ps1 [project_dir]
 
 #### Prepare
 
-Switch 文内の Unity.exe へのパスを環境に合わせて変更する
-
-ex.
-
-```
-"2017.4.28f1" {
-    $unity_exe_path = "D:\Unity\2017.4.28f1\Editor\Unity.exe"
-}
-```
+`const.example.ps1` を `const.ps1` にリネームし、バージョンと Unity の実行パスを追記する
 
 ### `Check-Version.ps1`
 
