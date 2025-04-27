@@ -33,3 +33,10 @@ Retrieves the VRCSDK version used in the specified directory.
 Get-VRCSDK-Version.ps1 [project_dir]
 ```
 
+### `Git-Init-Unity.ps1`
+
+Initializes a Git repository in the Unity project directory, creates a `.gitignore` and `.gitattributes` file, and installs Git LFS.
+
+```
+Git-Init-Unity.ps1
+```
