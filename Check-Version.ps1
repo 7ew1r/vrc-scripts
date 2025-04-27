@@ -3,7 +3,7 @@ class UnityProject {
     [string]$UnityVersion
 
     [bool]IsOutDated() {
-        return ($this.UnityVersion -ne "2019.4.29f1")
+        return ($this.UnityVersion -ne "2022.3.22f1")
     }
     [void]Show() {
        Write-Host -NoNewLine ($this.DirectoryInfo.Name)
@@ -27,7 +27,7 @@ foreach($item in $itemList)
     }
 
     $unity_version = Get-Unity-Version $item
-    if ($unity_version -eq $NULL) {
+    if ($NULL -eq $unity_version) {
         continue
     }
 
