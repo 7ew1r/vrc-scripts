@@ -13,7 +13,7 @@ Powershell scripts for VRChat
 
 Displays a list of Unity projects in the current directory and the Unity versions they are using.
 
-```
+```powershell
 Check-Version.ps1
 ```
 
@@ -21,7 +21,7 @@ Check-Version.ps1
 
 Retrieves the Unity version used in the specified directory.
 
-```
+```powershell
 Get-Unity-Version.ps1 [project_dir]
 ```
 
@@ -29,7 +29,7 @@ Get-Unity-Version.ps1 [project_dir]
 
 Retrieves the VRCSDK version used in the specified directory.
 
-```
+```powershell
 Get-VRCSDK-Version.ps1 [project_dir]
 ```
 
@@ -37,6 +37,6 @@ Get-VRCSDK-Version.ps1 [project_dir]
 
 Initializes a Git repository in the Unity project directory, creates a `.gitignore` and `.gitattributes` file, and installs Git LFS.
 
-```
+```powershell
 Git-Init-Unity.ps1
 ```
